@@ -1,0 +1,30 @@
+{
+  "name": "truffle-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "DEV=true nodemon index.js",
+    "testnet": "TESTNET=true nodemon index.js",
+    "start": "node index.js"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "output/*",
+      "storage.json"
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pinata/sdk": "^1.1.23",
+    "@truffle/hdwallet-provider": "^1.6.0",
+    "dotenv": "^10.0.0",
+    "images": "^3.2.3",
+    "ipfs-core": "^0.11.1",
+    "node-json-file-storage": "^1.1.0",
+    "web3": "^1.6.0"
+  },
+  "devDependencies": {}
+}

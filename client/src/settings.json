@@ -1,0 +1,10 @@
+{
+  "acceptedChainsHex": [
+    {"Matic/Polygon Mainnet": 137},
+    {"Mumbai Testnet": 80001}
+  ],
+  "transactionSettings": {
+    "gasLimit": 3000000,
+    "price": 0
+  }
+}
